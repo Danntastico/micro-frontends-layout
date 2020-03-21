@@ -1,25 +1,50 @@
 {
   "name": "micro-frontends-layout",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.6",
+  "description": "Layout",
+  "main": "dist/micro-frontends-layout.umd.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --formats umd --name micro-frontends-layout src/singleSpaEntry.js",
     "lint": "vue-cli-service lint"
   },
-  "dependencies": {
-    "core-js": "^3.6.4",
-    "vue": "^2.6.11"
-  },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.2.0",
-    "@vue/cli-plugin-eslint": "~4.2.0",
-    "@vue/cli-service": "~4.2.0",
-    "@vue/eslint-config-airbnb": "^5.0.2",
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.7.2",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-vue": "^6.1.2",
-    "vue-template-compiler": "^2.6.11"
+    "@vue/cli-plugin-babel": "4.1.0",
+    "@vue/cli-plugin-eslint": "4.1.0",
+    "@vue/cli-service": "4.1.0",
+    "babel-eslint": "10.0.3",
+    "core-js": "3.4.4",
+    "eslint": "5.16.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-plugin-import": "2.20.0",
+    "eslint-plugin-vue": "5.0.0",
+    "sass": "1.24.4",
+    "sass-loader": "8.0.2",
+    "vue-cli-plugin-single-spa": "1.1.0",
+    "vue-template-compiler": "2.6.11",
+    "webpack": "4.41.5"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "single-spa",
+    "login",
+    "npm",
+    "bootstrap",
+    "bootstrap-vue",
+    "webpack"
+  ],
+  "author": "Danntastico",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "vue": "^2.6.11"
   }
 }
