@@ -1,4 +1,5 @@
 <template>
+<!-- eslint-disable max-len -->
   <nav class="flex items-center justify-between flex-wrap bg-white p-5 shadow-lg">
     <div class="flex items-center flex-shrink-0 text-white mr-8">
       <img src="../assets/endava-logo.png" alt="logo" class="mr-2" width="60" />

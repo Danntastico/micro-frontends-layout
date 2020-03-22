@@ -1,5 +1,5 @@
 <template>
-  <div id="layout-app">
+  <div id="micro-frontends-layout">
     <Header></Header>
     <Footer></Footer>
   </div>
