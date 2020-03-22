@@ -1,19 +1,13 @@
 {
   "name": "micro-frontends-layout",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "description": "Layout",
-  "author": "Danntastico",
+  "main": "dist/micro-frontends-layout.umd.js",
   "scripts": {
     "build": "vue-cli-service build --target lib --formats umd --name micro-frontends-layout src/singleSpaEntry.js",
     "lint": "vue-cli-service lint"
   },
-  "main": "dist/micro-frontends-layout.umd.js",
-  "dependencies": {
-    "tailwindcss": "^1.1.2",
-    "vue": "^2.6.11"
-  },
   "devDependencies": {
-    "@ianaya89/vue-cli-plugin-tailwind": "~1.0.2",
     "@vue/cli-plugin-babel": "4.1.0",
     "@vue/cli-plugin-eslint": "4.1.0",
     "@vue/cli-service": "4.1.0",
@@ -29,22 +23,22 @@
     "vue-template-compiler": "2.6.11",
     "webpack": "4.41.5"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "single-spa",
+    "npm",
+    "tailwind",
+    "webpack"
   ],
+  "author": "Danntastico",
   "bugs": {
     "url": ""
   },
   "homepage": "",
-  "keywords": [
-    "single-spa",
-    "login",
-    "npm",
-    "webpack"
-  ],
-  "repository": {
-    "type": "git",
-    "url": ""
+  "dependencies": {
+    "vue": "^2.6.11"
   }
 }

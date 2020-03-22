@@ -24,6 +24,7 @@ module.exports = {
       '@fortawesome/free-brands-svg-icons',
       '@fortawesome/free-solid-svg-icons',
       '@fortawesome/vue-fontawesome',
+      '@ianaya89/vue-cli-plugin-tailwind',
       'bootstrap',
       'bootstrap-vue',
       'single-spa-vue',
