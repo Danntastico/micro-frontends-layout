@@ -1,6 +1,6 @@
 {
   "name": "micro-frontends-layout",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Layout",
   "main": "dist/micro-frontends-layout.umd.js",
   "scripts": {
@@ -34,9 +34,6 @@
     "webpack"
   ],
   "author": "Danntastico",
-  "bugs": {
-    "url": ""
-  },
   "homepage": "",
   "dependencies": {
     "vue": "^2.6.11"

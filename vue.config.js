@@ -9,7 +9,7 @@ module.exports = {
     output: {
       library: 'micro-frontends-layout',
       libraryTarget: 'umd',
-      filename: 'smicro-frontends-layout.js',
+      filename: 'micro-frontends-layout.js',
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [

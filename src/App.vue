@@ -1,22 +1,31 @@
 <template>
   <div id="micro-frontends-layout">
     <Header></Header>
-    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue';
-import Footer from './components/Footer.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
-    Footer,
+  },
+  beforeCreate() {
+    if (!sessionStorage.getItem('token')) {
+      window.history.pushState(null, null, '/login');
+    }
   },
 };
 </script>
 
 <style>
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  height: 100%;
+}
 </style>

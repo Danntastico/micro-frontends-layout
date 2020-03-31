@@ -11,7 +11,7 @@ Vue.config.productionTip = false;
 const vueLifecycles = singleSpaVue({
   Vue,
   appOptions: {
-    el: '#layout-app',
+    el: '#micro-frontends-layout',
     render: (h) => h(App),
   },
 });
